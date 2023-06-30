@@ -22,20 +22,30 @@ header {
     border-bottom: 1px solid rgba(255, 135, 0, 0.1);
 }
 
-.central-pet {
-    height: 35px;
+/* 
+.logo {
+    height: 8px;
+} 
+
+*/
+
+.logo img {
+    height: 26px;
+    vertical-align: center;
 }
 
 .menu {
-    width: 80%;
-    text-align: right;
+    display: flex;
+    align-items: center;
 }
+
 
 .menu a {
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
     margin-right: 20px;
+    margin-right: 10px;
 }
 
 .menu a:hover {
@@ -188,6 +198,12 @@ section.sobre {
     margin-right: 3%;
     text-align: center;
     color: #ff8700ea;
+    width: 50%;
+    height: auto;
+}
+
+.conquistas-container {
+    flex-wrap: wrap;
 }
 
 .conquista-single h2 {
@@ -247,9 +263,11 @@ section.sobre-empreendedor {
 }
 
 .conquista-single img {
-    max-width: 50%;
+    display: inline-block;
+    width: 50%;
     height: auto;
 }
+
 
 section.depoimentos {
     padding: 40px 0;
@@ -336,7 +354,7 @@ footer p {
     margin: 10px 0;
 }
 
-.footer-menu a {
+.footer-menu p {
     display: inline-block;
     margin: 0 5px;
     color: #333;
@@ -369,3 +387,4 @@ footer p {
 .footer-social a:hover {
     color: rgb(82, 82, 82);
 }
+
